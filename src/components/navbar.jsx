@@ -16,7 +16,7 @@ const Navbar = () => {
     setIsMoreOpen((prev) => !prev);
   };
   return (
-    <nav className="relative w-full h-[90px] flex ">
+    <nav className="relative w-[1512px] h-[90px] flex ">
       <div  className="ml-[80px] mr-[80px] mt-[24px] mb-[24px] flex w-[1352px] h-[46.5px] space-x-[44px]">
         {/* Logo Section */}
         <div className="mt-[7.25px] mb-[7.25px] w-[32px] h-[32px]">
