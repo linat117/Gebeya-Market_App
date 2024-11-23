@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* Logo Section */}
         <div className="mt-[7.25px] mb-[7.25px] w-[32px] h-[32px]">
           <a href="/">
-            <img src="src/assets/img/image.png" alt="Logo" />
+            <img src="/src/assets/img/image.png" alt="Logo" />
           </a>
         </div>
 
@@ -32,7 +32,7 @@ const Navbar = () => {
             onClick={toggleDropdown}
             className="hover:text-black flex space-x-[4px]"
           >
-            <img src="src/assets/icons/Vector.png" className="mt-[5.33px] ml-[2px] w-[12px] h-[12.67px]"/>
+            <img src="/src/assets/icons/Vector.png" className="mt-[5.33px] ml-[2px] w-[12px] h-[12.67px]"/>
            <li className="w-[125px] h-[24px] font-poppins text-[16px] text-[#1E1E1E]"> Register/Sign In</li>
            <img src={isOpen ? "src/assets/icons/up.png" : "src/assets/icons/down.png"} className="mt-[4px] ml-[149px]"/>
           </button>
@@ -74,7 +74,7 @@ const Navbar = () => {
           >
            <li className="w-[40px] h-[24px] font-poppins text-[16px] text-[#1E1E1E]"> More</li>
           
-            <img src={isMoreOpen ? "src/assets/icons/up.png" : "src/assets/icons/down.png"} className="mt-[4px] "/>
+            <img src={isMoreOpen ? "/src/assets/icons/up.png" : "src/assets/icons/down.png"} className="mt-[4px] "/>
           </button>
 
           {/* Dropdown Menu */}
@@ -150,14 +150,14 @@ const Navbar = () => {
 
         {/* Cart Section */}
         <div className="flex w-[149px] h-[24px] space-x-[4px] ml-[1083px] mt-[11.25px]">
-         <img src="src/assets/icons/uk.png" className="w-[24px] h-[24px]"/>
+         <img src="/src/assets/icons/uk.png" className="w-[24px] h-[24px]"/>
           <div className=" ml-[28px] font-poppins font-regular text-[16px] text-[#1E1E1E]">EN/Currency</div>
-          <img src="src/assets/icons/down.png" className="w-[16px] h-[16px] mt-[4px]"/>
+          <img src="/src/assets/icons/down.png" className="w-[16px] h-[16px] mt-[4px]"/>
           
         </div>
         <div>
         <a href="/cart">
-            <img src="src/assets/icons/cart.png" alt="Cart" className="w-[47px] h-[46.5px] rounded-full filter mix-blend-screen bg-[#882BEC]" />
+            <img src="/src/assets/icons/cart.png" alt="Cart" className="w-[47px] h-[46.5px] rounded-full filter mix-blend-screen bg-[#882BEC]" />
           </a>
         </div>
 
